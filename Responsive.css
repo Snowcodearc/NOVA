@@ -1,0 +1,339 @@
+
+@media (max-width: 480px) {
+  /* Base */
+  html, body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  }
+
+  /* Header */
+  header {
+    height: auto;
+    padding: 12px 16px;
+    gap: 12px;
+    max-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+  }
+  header .logo label::before{
+    position: absolute;
+    content: "menu";
+    font-family: "material icons";
+    left: 0;
+    top: 0;
+    font-size: 32px;
+  }
+
+  header img {
+    width: 120px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nova-container {
+    height: auto;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Menus */
+  .menus {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-left: 0;
+  }
+
+  .menus a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .sign-in {
+    margin-left: 0;
+    text-align: start;
+  }
+
+  .sign-in a {
+    margin-left: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* Dropdowns render inline on mobile */
+  .feature-dropdown .feature-content,
+  .Company-dropdown .Company-content,
+  .Help-dropdown .Help-texts {
+    position: static;
+    display: none;
+    /* display: block; */
+    width: 100%;
+    height: auto;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    padding: 8px 0;
+    margin-top: 6px;
+    background: #fff;
+  }
+
+  .feature-dropdown .feature-content a,
+  .Company-dropdown .Company-content a,
+  .Help-dropdown .Help-texts a {
+    position: static;
+    display: block; 
+    /* display: none; */
+    width: 100%;
+    margin: 0;
+    padding: 8px 12px;
+    line-height: 20px;
+    font-size: 13px;
+    white-space: normal;
+  }
+
+  /* Hero / main text */
+  .texts {
+    height: auto;
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .text-container {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-texts {
+    width: 100%;
+    margin: 0;
+    padding: 24px 16px;
+    height: auto;
+  }
+
+  .main-texts h1 {
+    font-size: 28px;
+    line-height: 1.25;
+    width: auto;
+    height: auto;
+    margin: 12px 0;
+    padding: 0;
+  }
+
+  .main-texts p {
+    font-size: 16px;
+    line-height: 24px;
+    width: auto;
+    height: auto;
+    margin: 8px 0 16px;
+    padding: 0;
+    display: block;
+  }
+
+  .main-texts img {
+    width: 150px;
+    height: auto;
+    padding: 0;
+    margin: 8px 0 16px;
+    position: static;
+  }
+
+  .main-texts button {
+    width: 100%;
+    max-width: 320px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .bank-icon img {
+    width: 100%;
+    height: auto;
+    position: static;
+    top: auto;
+    right: auto;
+  }
+
+  /* Services */
+  .services,
+  .services-container1,
+  .services-container2 {
+    height: auto;
+    width: 100%;
+  }
+
+  .container {
+    position: static;
+    bottom: auto;
+  }
+
+  .services-container1,
+  .services-container2 {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin: 16px 0;
+    padding: 0 16px;
+    bottom: auto;
+  }
+
+  .card {
+    width: 100%;
+    margin: 8px 0;
+    height: auto;
+    padding: 16px;
+    border-radius: 6px;
+  }
+
+  .services-container .services-text {
+    width: 100%;
+    height: auto;
+    margin: 8px 0 0 0;
+    padding: 0 4px;
+  }
+
+  /* Sections: first/second/third */
+  .first-part,
+  .second-part,
+  .third-part {
+    position: static;
+    bottom: auto;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .first-container,
+  .second-container,
+  .third-container {
+    height: auto;
+    width: 100%;
+    margin: 24px 0;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-1,
+  .text-2,
+  .text-3 {
+    width: 100%;
+    margin: 0;
+    padding: 16px 0;
+    height: auto;
+  }
+
+  .text-1 h1,
+  .text-2 h1,
+  .text-3 h1 {
+    font-size: 28px;
+    line-height: 1.25;
+    width: auto;
+    height: auto;
+    margin: 12px 0;
+    padding: 0;
+  }
+
+  .text-1 p,
+  .text-2 p,
+  .texts-3 p {
+    font-size: 16px;
+    line-height: 24px;
+    width: auto;
+    height: auto;
+    margin: 8px 0 16px;
+    padding: 0;
+  }
+
+  .text-1 button {
+    position: static;
+    width: 100%;
+    max-width: 320px;
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .image-1 img,
+  .image-2 img,
+  .image-3 img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 16px 0 0 0;
+  }
+
+  .image-2 img {
+    margin-top: 16px;
+    margin-left: 0;
+  }
+
+  .image-3 img {
+    margin-left: 0;
+  }
+
+  /* Spend section */
+  .spend-texts {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    position: static;
+    right: auto;
+    height: auto;
+  }
+
+  .spend-texts .texts {
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+    height: auto;
+  }
+
+  .spend-texts .texts h1 {
+    font-size: 28px;
+    line-height: 1.25;
+    width: auto;
+    height: auto;
+    margin: 8px 0;
+    padding: 0;
+    right: auto;
+    top: auto;
+    text-shadow: none;
+  }
+
+  .spend-texts .texts .sub-texts {
+    position: static;
+    max-width: 100%;
+  }
+
+  .spend-texts .texts h3 {
+    font-size: 18px;
+    width: auto;
+    margin: 8px 0;
+    padding: 0;
+  }
+
+  .spend-texts .texts p,
+  .spend-texts .texts div {
+    width: auto;
+    height: auto;
+    margin: 8px 0;
+  }
+
+  .spend-texts .texts .sub-texts a {
+    position: static;
+  }
+
+  .spend-texts .image img {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin-top: 16px;
+    right: auto;
+    top: auto;
+  }
+}
