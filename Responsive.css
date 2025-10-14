@@ -179,10 +179,15 @@
     margin: 16px 0;
     padding: 0 16px;
     bottom: auto;
+    width: 80%;
   }
 
   .card {
+<<<<<<< HEAD
     width: 75%;
+=======
+    width: 80%;
+>>>>>>> 9057e07a736cf3ed72d31a1a17a1177182d54b95
     margin: 8px 0;
     height: auto;
     padding: 16px;
