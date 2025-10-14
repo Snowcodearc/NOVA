@@ -120,6 +120,10 @@ header img:hover {
     margin-bottom: -13px;
     margin-left: 3px;
 }
+.feature-dropdown .feature-content a i{
+    position: relative;
+    right: 10px;
+}
 
 .feature-dropdown:hover .feature-content {
     display: block;
@@ -397,7 +401,10 @@ header img:hover {
 .main-texts button:hover {
     transform: matrix(1, 0, 0, 1, 0, 20);
     transition: 1s ease-out;
-
+}
+.main-texts button a{
+    text-decoration: none;
+    color: white;
 }
 
 .bank-icon img {
@@ -424,6 +431,207 @@ header img:hover {
 .bank-icon img:hover {
     transform: translateY(-30px);
 }
+
+/* NOVA CARD */
+.first-part {
+    font-size: 16px;
+    line-height: 24px;
+    word-spacing: 0px;
+    height: 828.389px;
+    width: 1696.89px;
+    max-width: 100%;
+}
+
+.first-container {
+    height: 502.667px;
+    width: 1696.89px;
+    border-bottom: 3px solid #DEE2E6;
+    margin: 48px -12px 48px -12px;
+    display: flex;
+    max-width: 100%;
+}
+
+.text-1 {
+    height: 452px;
+    width: 565.625px;
+    margin: 48px 0 0 175px;
+    padding: 0 12px 0 12px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    max-width: 100%;
+}
+
+.text-1 h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55.2px;
+    height: 126.389px;
+    width: 538.625px;
+    margin: 50px 0 15px 3px;
+    padding: 8px 8px 8px 8px;
+    color: #ff6d37
+}
+
+.text-1 p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    height: 62px;
+    width: 541.625px;
+    margin: 0 0 16px 0;
+    padding: 16px 16px 16px 16px;
+    position: relative;
+    bottom: 30px;
+}
+
+.text-1 button {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    word-spacing: 0px;
+    height: 51.7778px;
+    width: 150px;
+    padding: 10px 5px 10px 5px;
+    background: #ff6d37;
+    border: none;
+    border-radius: 5px;
+    outline: rgb(255, 2, 2) dashed 0px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+.text-1 button:hover {
+    transform: matrix(1, 0, 0, 1, 0, 20);
+    transition: 3s ease-in-out 1s;
+
+}
+
+.image-1 img {
+    height: 400px;
+    width: 400px;
+    max-width: 100%;
+}
+
+.second-part {
+    position: relative;
+    bottom: 350px;
+}
+
+.second-container {
+    height: 598.667px;
+    width: 1696.89px;
+    border-bottom: 3px solid #DEE2E6;
+    margin: 48px -12px 48px -12px;
+    display: flex;
+    max-width: 100%;
+}
+
+.text-2 {
+    height: 548px;
+    width: 565.625px;
+    margin: 48px 0 0 175px;
+    padding: 0 12px 0 12px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+}
+
+.text-2 h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55.2px;
+    height: 71.1944px;
+    width: 538.625px;
+    margin: 50px 0 15px 3px;
+    padding: 8px 8px 8px 8px;
+    color: #ff6d37;
+}
+
+.text-2 p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    height: 212px;
+    width: 541.625px;
+    margin: 0 0 16px 0;
+    padding: 16px 16px 16px 16px;
+    position: relative;
+    bottom: 20px;
+}
+
+.image-2 img {
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+/*  */
+.third-part {
+    position: relative;
+    bottom: 250px;
+}
+
+.third-container {
+    height: 298.667px;
+    width: 1696.89px;
+    /* border-bottom: 3px solid  #DEE2E6; */
+    margin: 48px -12px 48px -12px;
+    display: flex;
+    max-width: 100%;
+}
+
+.image-3 img {
+    height: 400px;
+    width: 400px;
+    max-width: 100%;
+    margin-left: 40px;
+}
+
+.text-3 {
+    display: block;
+    height: 548px;
+    width: 565.625px;
+    margin: 48px 0 0 175px;
+    padding: 0 12px 0 12px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+}
+
+.text-3 h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55.2px;
+    color: #ff6d37;
+    height: 71.1944px;
+    width: 538.625px;
+    margin: 50px 0 15px 3px;
+    padding: 8px 8px 8px 8px;
+    position: relative;
+    right: 10px;
+
+}
+
+.texts-3 p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    height: 182px;
+    width: 541.625px;
+    margin: 0 0 16px 0;
+    padding: 16px 16px 16px 16px;
+    display: block;
+}
+
 
 
 /* SERVICES */
@@ -805,3 +1013,177 @@ header img:hover {
     right: 160px;
     top: 120px;
 }
+
+
+/* SIGN UP */
+.signup {
+    height: 697.236px;
+    width: 100%;
+    max-width: 100%;
+}
+.signup-container {
+    height: 697.236px;
+    width: 557.625px;
+    padding: 0px 48px 0px 48px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+    
+}
+.signup-note{
+    height: 31.7778px;
+    width: 60%;
+    border: 1px solid  #DEE2E6;
+    margin: 16px 0 0 0;
+    padding: 16px 16px 24px 16px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+    max-width: 100%;
+}
+.signup-note span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    word-spacing: 0px;
+    color: #495057;
+    display: inline-block;
+}
+.signup-note span a{
+    text-decoration: none;
+    color: #ff6d37;
+    font-weight: bold;
+}
+.signup-container2{
+    position: relative;
+}
+
+.signup-container2 .signup-1{
+    height: 65%;
+    width: 66%;
+    border: 1px solid  #DEE2E6;
+    margin: 24px 0 16px 0;
+    padding: 16px 16px 16px 16px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.signup-1 h1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.8px;
+    word-spacing: 0px;
+    margin: 0 0 8px 0;
+}
+.signup-1 h1 span{
+    text-decoration: underline double rgb(255, 69, 0);
+}
+.signup-1 p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    word-spacing: 0px;
+    color: #495057;
+    margin: 0 0 16px 0;
+}
+.signup-1 form{
+    display: flex;
+    flex-direction: column;
+}
+.signup-1 form label{
+    color: #ff6d37;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    word-spacing: 0px;
+}
+.signup-1 form input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid  #DEE2E6;
+    margin: 0 0 6px 0;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.signup-1 form p{
+    font-size: 12px;
+    line-height: 24px;
+    word-spacing: 0px;
+    margin: 0 0 7px 0;
+    color: black;
+}
+.signup-1 form p a{
+    text-decoration: none;
+    color: #ff6d37;
+    font-weight: 450;
+}
+.signup-1 form span{
+    font-size: 12px;
+    line-height: 24px;
+    word-spacing: 0px;
+    margin: 0 0 16px 0;
+}
+.signup-1 form span span{
+    text-decoration: double underline rgb(255, 69, 0);
+}
+.signup-1 form span a{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: underline;
+    word-spacing: 0px;
+    color: #ff6d37;
+
+}
+.signup-1 form button{
+    height: 30px;
+    width: 100%;
+    border: none;
+    background-color: #ff6d37;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    word-spacing: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup-2{
+    height: 793.236px;
+    width: 697.028px;
+    margin: 0 209px 0 209px;
+    padding: 0 12px 0 12px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+}
+.signup-2 img{
+    height: 500px;
+    width: 90%;
+    max-width: 100%;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 65%;
+    left: 100%;
+    animation: lady 1s ease-in forwards 1s;
+}
+
+@keyframes lady {
+    from {
+        transform: translate(100%, 0%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+}
+
+.bank-icon img:hover {
+    transform: translateY(-30px);
+}
+

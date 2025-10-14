@@ -1,7 +1,7 @@
-
 @media (max-width: 480px) {
-  /* Base */
-  html, body {
+
+  html,
+  body {
     width: 100%;
     height: auto;
     overflow-x: hidden;
@@ -15,14 +15,6 @@
     gap: 12px;
     max-width: 100%;
     box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
-  }
-  header .logo label::before{
-    position: absolute;
-    content: "menu";
-    font-family: "material icons";
-    left: 0;
-    top: 0;
-    font-size: 32px;
   }
 
   header img {
@@ -65,6 +57,7 @@
   }
 
   /* Dropdowns render inline on mobile */
+
   .feature-dropdown .feature-content,
   .Company-dropdown .Company-content,
   .Help-dropdown .Help-texts {
@@ -76,7 +69,7 @@
     border: 1px solid #f1f1f1;
     border-radius: 4px;
     padding: 8px 0;
-    margin-top: 6px;
+    margin-top: 2px;
     background: #fff;
   }
 
@@ -84,14 +77,19 @@
   .Company-dropdown .Company-content a,
   .Help-dropdown .Help-texts a {
     position: static;
-    display: block; 
+    display: block;
     /* display: none; */
     width: 100%;
     margin: 0;
     padding: 8px 12px;
-    line-height: 20px;
+    line-height: 10px;
     font-size: 13px;
     white-space: normal;
+  }
+
+  .feature-dropdown .feature-content a {
+    position: relative;
+    left: 7px;
   }
 
   /* Hero / main text */
@@ -117,12 +115,13 @@
   }
 
   .main-texts h1 {
-    font-size: 28px;
+    font-size: 23px;
     line-height: 1.25;
     width: auto;
     height: auto;
     margin: 12px 0;
-    padding: 0;
+    padding: 0px 60px 0 0;
+
   }
 
   .main-texts p {
@@ -183,7 +182,7 @@
   }
 
   .card {
-    width: 100%;
+    width: 75%;
     margin: 8px 0;
     height: auto;
     padding: 16px;
@@ -219,6 +218,10 @@
     flex-direction: column;
   }
 
+  .second-container {
+    flex-wrap: wrap;
+  }
+
   .text-1,
   .text-2,
   .text-3 {
@@ -226,12 +229,14 @@
     margin: 0;
     padding: 16px 0;
     height: auto;
+    display: block;
+    flex-wrap: wrap;
   }
 
   .text-1 h1,
   .text-2 h1,
   .text-3 h1 {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 1.25;
     width: auto;
     height: auto;
@@ -239,32 +244,75 @@
     padding: 0;
   }
 
+  .text-1 p {
+    display: block;
+    position: relative;
+    top: -10px;
+    left: 3px;
+  }
+
+  .text-2 p {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    left: 3px;
+    line-height: 1.9;
+  }
+
   .text-1 p,
   .text-2 p,
   .texts-3 p {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 24px;
     width: auto;
     height: auto;
     margin: 8px 0 16px;
     padding: 0;
+    flex-wrap: nowrap;
+  }
+
+  .text-2 h1 {
+    position: relative;
+  }
+
+  .text-2 p {
+    padding: 0px 60px 0 0;
   }
 
   .text-1 button {
     position: static;
-    width: 100%;
-    max-width: 320px;
+    width: 40%;
+    max-width: 100%;
     height: 44px;
     font-size: 16px;
+  }
+
+  .text-3 h1 {
+    font-size: 25px;
+    line-height: 1.25;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 5px;
+    padding: 0;
+  }
+
+  .text-3 p {
+    padding: 0px 60px 0 0;
+    position: relative;
+    left: 5px;
   }
 
   .image-1 img,
   .image-2 img,
   .image-3 img {
-    width: 100%;
+    width: 50%;
     height: auto;
     max-width: 100%;
     margin: 16px 0 0 0;
+    position: relative;
+    left: 30px;
+    justify-content: center;
   }
 
   .image-2 img {
@@ -277,6 +325,17 @@
   }
 
   /* Spend section */
+  .spend-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+  }
+
   .spend-texts {
     flex-direction: column;
     width: 100%;
@@ -303,6 +362,9 @@
     right: auto;
     top: auto;
     text-shadow: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .spend-texts .texts .sub-texts {
@@ -322,6 +384,7 @@
     width: auto;
     height: auto;
     margin: 8px 0;
+    padding: 0 20px 0 0;
   }
 
   .spend-texts .texts .sub-texts a {
@@ -329,11 +392,210 @@
   }
 
   .spend-texts .image img {
-    width: 100%;
+    width: 80%;
     height: auto;
-    position: static;
+    position: relative;
     margin-top: 16px;
     right: auto;
     top: auto;
+    left: 40px;
+
   }
+
+  /* SIGN UP */
+  .signup {
+    height: 550.236px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .signup-container {
+    height: 697.236px;
+    width: 557.625px;
+    padding: 0px 48px 0px 48px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+
+  }
+
+  .signup-note {
+    height: 31.7778px;
+    width: 60%;
+    border: 1px solid #DEE2E6;
+    margin: 16px 0 0 0;
+    padding: 16px 16px 24px 16px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+    max-width: 100%;
+  }
+
+  .signup-note span {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    word-spacing: 0px;
+    color: #495057;
+    display: block;
+    padding: 0px 0px 20px 0px;
+    position: relative;
+    bottom: 12px;
+  }
+
+  .signup-note span a {
+    text-decoration: none;
+    color: #ff6d37;
+    font-weight: bold;
+  }
+
+  .signup-container2 {
+    position: relative;
+    position: a;
+  }
+
+  .signup-container2 .signup-1 {
+    height: 65%;
+    width: 66%;
+    border: 1px solid #DEE2E6;
+    margin: 24px 0 16px 0;
+    padding: 16px 16px 16px 16px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .signup-1 h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.8px;
+    word-spacing: 0px;
+    margin: 0 0 8px 0;
+  }
+
+  .signup-1 h1 span {
+    text-decoration: underline double rgb(255, 69, 0);
+  }
+
+  .signup-1 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    word-spacing: 0px;
+    color: #495057;
+    margin: 0 0 16px 0;
+  }
+
+  .signup-1 form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .signup-1 form label {
+    color: #ff6d37;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    word-spacing: 0px;
+  }
+
+  .signup-1 form input {
+    height: 30px;
+    width: 100%;
+    border: 1px solid #DEE2E6;
+    margin: 0 0 6px 0;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+
+  .signup-1 form p {
+    font-size: 12px;
+    line-height: 24px;
+    word-spacing: 0px;
+    margin: 0 0 7px 0;
+    color: black;
+  }
+
+  .signup-1 form p a {
+    text-decoration: none;
+    color: #ff6d37;
+    font-weight: 450;
+  }
+
+  .signup-1 form span {
+    font-size: 12px;
+    line-height: 24px;
+    word-spacing: 0px;
+    margin: 0 0 16px 0;
+  }
+
+  .signup-1 form span span {
+    text-decoration: double underline rgb(255, 69, 0);
+  }
+
+  .signup-1 form span a {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: underline;
+    word-spacing: 0px;
+    color: #ff6d37;
+
+  }
+
+  .signup-1 form button {
+    height: 30px;
+    width: 100%;
+    border: none;
+    background-color: #ff6d37;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    word-spacing: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .signup-2 {
+    height: 793.236px;
+    width: 697.028px;
+    margin: 0 209px 0 209px;
+    padding: 0 12px 0 12px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+  }
+
+  .signup-2 img {
+    height: 500px;
+    width: 90%;
+    max-width: 100%;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 65%;
+    left: 100%;
+    animation: lady 1s ease-in forwards 1s;
+    display: none;
+  }
+
+  @keyframes lady {
+    from {
+      transform: translate(100%, 0%);
+      opacity: 0;
+    }
+
+    to {
+      transform: translate(0%, 0%);
+      opacity: 1;
+    }
+  }
+
+  .bank-icon img:hover {
+    transform: translateY(-30px);
+  }
+
 }
